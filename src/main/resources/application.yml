@@ -1,0 +1,7 @@
+spring:
+  profiles:
+    active: dev
+jwt:
+  secret: changeit-changeit-changeit-changeit-changeit-123456
+  access-expiration-minutes: 15
+  refresh-expiration-days: 7

@@ -1,0 +1,77 @@
+# =========================
+# Java & Spring Boot
+# =========================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# Logs
+*.log
+*.out
+*.err
+
+# Runtime files
+*.pid
+*.seed
+*.tmp
+*.temp
+
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Backup files
+*.bak
+*.swp
+*~
+
+
+# =========================
+# IDEs
+# =========================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# VS Code
+.vscode/
+.history/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# =========================
+# OS-specific files
+# =========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
