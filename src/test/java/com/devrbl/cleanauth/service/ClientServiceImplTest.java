@@ -6,14 +6,12 @@ import com.devrbl.cleanauth.application.mapper.ClientMapper;
 import com.devrbl.cleanauth.application.service.impl.ClientServiceImpl;
 import com.devrbl.cleanauth.domain.entity.Client;
 import com.devrbl.cleanauth.domain.repository.ClientRepository;
-import com.victor.cleanauth.shared.exception.NotFoundException;
+import com.devrbl.cleanauth.shared.exception.NotFoundException;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.springframework.data.domain.PageImpl;
-import org.springframework.data.domain.PageRequest;
 
 import java.util.Optional;
 

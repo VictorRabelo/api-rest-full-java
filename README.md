@@ -38,7 +38,7 @@ com.devrbl.cleanauth.domain         // entities, repository interfaces
 com.devrbl.cleanauth.application    // dtos, mappers, services
 com.devrbl.cleanauth.infrastructure // security, configs
 com.devrbl.cleanauth.presentation   // REST controllers
-com.victor.cleanauth.shared         // exceptions, handler
+com.devrbl.cleanauth.shared         // exceptions, handler
 ```
 
 ## Tests

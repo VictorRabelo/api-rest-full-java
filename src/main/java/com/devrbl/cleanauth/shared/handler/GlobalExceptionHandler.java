@@ -1,6 +1,6 @@
-package com.victor.cleanauth.shared.handler;
+package com.devrbl.cleanauth.shared.handler;
 
-import com.victor.cleanauth.shared.exception.*;
+import com.devrbl.cleanauth.shared.exception.*;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

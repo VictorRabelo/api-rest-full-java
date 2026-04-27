@@ -7,4 +7,5 @@ public interface AuthService {
     void logout(String accessToken, String refreshToken);
     AuthResponseDTO refresh(String refreshToken);
     MeResponseDTO me(String email);
+    AuthResponseDTO register(RegisterRequestDTO request);
 }
